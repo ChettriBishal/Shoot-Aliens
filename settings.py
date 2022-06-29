@@ -5,7 +5,7 @@ class Settings:
         '''Initialize the game's settings '''
         #Screen settings
         self.screen_width = 1370
-        self.screen_height = 700
+        self.screen_height = 705
         self.bg_color = (230, 230, 230)
 
         #Ship settings
