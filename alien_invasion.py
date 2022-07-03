@@ -81,6 +81,7 @@ class AlienInvasion:
             self.stats.game_active = True
             self.sb.prep_score() # 0 score start
             self.sb.prep_level() #1 level start
+            self.sb.prep_ships()
 
             #Get rid of any remaining aliens and bullets
             self.aliens.empty()
@@ -227,7 +228,9 @@ class AlienInvasion:
         """Respond to ship being hit by an alien"""
         #Decrement ships_left
         if self.stats.ships_left > 0:
+            #decrement ships_left and update scoreboard
             self.stats.ships_left -= 1
+            self.sb.prep_ships()
 
             #Get rid of any remaining aliens and bullets
             self.aliens.empty()
