@@ -19,8 +19,8 @@
 
 ## Technologies
 Project is created with:
-* Python3
-* Pygame 
+* Python3 (v==3.8.10)
+* Pygame (v==2.1.2)
 	
 ## Setup
 To run this project, clone it locally using git:
