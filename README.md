@@ -1,4 +1,4 @@
-#Shoot Aliens
+# Shoot Aliens
 
 ## Table of contents
 * [General info](#general-info)
@@ -27,7 +27,7 @@ $ python3 alien_invasion.py
 
 ```
 
-##Screenshots
+## Screenshots
 ![Screenshot 1](https://github.com/bistimulus/Shoot-Aliens/blob/main/Screenshots/Example_1.png?raw=true)
 
 ![Screenshot 2](https://github.com/bistimulus/Shoot-Aliens/blob/main/Screenshots/Example_2.png?raw=true)
