@@ -23,7 +23,13 @@ Project is created with:
 * Pygame (v==2.1.2)
 	
 ## Setup
-To run this project, clone it locally using git:
+* Install the dependency ```pygame```
+
+```
+$ pip install pygame
+```
+
+* To run this project, clone it locally using git:
 
 ```
 $ git clone https://github.com/bistimulus/Shoot-Aliens.git
